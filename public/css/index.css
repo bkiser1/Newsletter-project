@@ -1,0 +1,66 @@
+* {  
+ box-sizing: border-box;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+    margin-top: 150px;
+    box-shadow: 10px 5px 5px 8px black;
+    background: rgba(0, 0, 0, 0.384);
+    font-family: 'Courgette', cursive;
+}
+
+ form input[type=text]{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 10px 15px 5px black;
+    border-radius: 10px 5px;
+    
+}
+
+form{
+    margin-top: 50px;
+}
+
+form button{
+    margin-top: 40px;
+    width: 100px;
+    border-radius: 30px 5px;
+    box-shadow: 3px 15px;
+    cursor: pointer;
+}
+
+body{
+    background: url(/css/mail.jpeg) fixed center;
+    background-size: cover;
+}
+
+.container p{
+    font-size: 50px;
+}
+
+form span{
+    font-size: 18px;
+}
+
+form input[type=email]{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 10px 15px 5px black;
+    border-radius: 10px 5px;
+}
